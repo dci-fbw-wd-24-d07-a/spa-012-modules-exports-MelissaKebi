@@ -30,4 +30,6 @@ function update() {
   output.innerText = date.toISOString();
 }
 
-// ???
+// exportiert
+export { checkValid };
+export { update };
